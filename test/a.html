@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vẽ Đường Thẳng bằng DDA</title>
+</head>
+<body>
+    <h1>Vẽ Đường Thẳng bằng DDA</h1>
+
+    <!-- Sử dụng input để nhập các điểm -->
+    <label for="x1">X1:</label>
+    <input type="number" id="x1">
+    <label for="y1">Y1:</label>
+    <input type="number" id="y1">
+    <br>
+    <label for="x2">X2:</label>
+    <input type="number" id="x2">
+    <label for="y2">Y2:</label>
+    <input type="number" id="y2">
+    <br>
+    <button onclick="drawLineDDA()">Vẽ Đường Thẳng</button>
+
+    <!-- Sử dụng canvas để hiển thị đường thẳng -->
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid black;"></canvas>
+
+    <!-- Nhúng tệp JavaScript -->
+    <script src="a.js"></script>
+</body>
+</html>
