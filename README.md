@@ -1,1 +1,1 @@
-Gender Detection Project
+Face Detection Project
